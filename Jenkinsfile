@@ -15,8 +15,8 @@ pipeline{
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'tynybay-group'
         NEXUS_LOGIN = 'nexus-id'
-        SONARSERVER = 'sonar4.8'
-        SONARSCANNER ='sonar'
+        SONARSERVER = 'sonar'
+        SONARSCANNER ='sonarscan'
 
     }    
 
