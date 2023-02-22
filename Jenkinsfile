@@ -15,8 +15,8 @@ pipeline{
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'tynybay-group'
         NEXUS_LOGIN = 'nexus-id'
-        SONARSERVER = 'sonar'
-        SONARSCANNER ='sonar4.8'
+        SONARSERVER = 'sonar4.8'
+        SONARSCANNER ='sonar'
 
     }    
 
@@ -50,7 +50,7 @@ pipeline{
 
                 }
                 steps{
-                    withSonarQubeEnv("${SONARSCANNER}"){
+                    withSonarQubeEnv("${SONARSCANNER}") {
                         sh '''${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=vprofile \
                         -Dsonar.projectName=vprofile-repo \
                         -Dsonar.projectVersion=1.0 \
