@@ -11,7 +11,7 @@ pipeline{
         NEXUS_PASS = '123'
         RELEASE_REPO = 'tynybay-release'
         CENTRAL_REPO = 'tynybay-central'
-        NEXUSIP = '172.31.27.143'
+        NEXUSIP = '172.31.18.63'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'tynybay-group'
         NEXUS_LOGIN = 'nexus-id'
