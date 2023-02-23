@@ -11,15 +11,15 @@ pipeline{
         NEXUS_PASS = '123'
         RELEASE_REPO = 'tynybay-release'
         CENTRAL_REPO = 'tynybay-central'
-        NEXUSIP = '172.31.18.63'
+        NEXUSIP = '172.31.18.151'
         NEXUSPORT = '8081'
         NEXUS_GRP_REPO = 'tynybay-group'
         NEXUS_LOGIN = 'nexus-id'
         SONARSERVER = 'sonar'
         SONARSCANNER ='sonarscan'
         registryCredential = 'ecr:us-east-1:aws-cred'
-        appRegistry = '561370721395.dkr.ecr.us-east-1.amazonaws.com/tynyone'
-        tynyregistry = 'https://561370721395.dkr.ecr.us-east-1.amazonaws.com'
+        appRegistry = '013065236301.dkr.ecr.us-east-1.amazonaws.com/tynyone'
+        tynyregistry = 'https://013065236301.dkr.ecr.us-east-1.amazonaws.com'
 
 
     }    
